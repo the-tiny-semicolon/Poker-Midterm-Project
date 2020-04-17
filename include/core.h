@@ -1,0 +1,12 @@
+void shuffleCards(int deck[][]);
+void printCardsShuffling(int deck[][], char* suits[], char* faces[]);
+int** dealingForHand(int deck[SUITS][FACES]);
+void printHand(int** hand, char* suits[], char* faces[]);
+int** createHandTest(int a[]);
+int isFourOfAKind(int** hand);
+int isFullHouse(int** hand);
+int isFlush(int** hand);
+int isStraight(int** hand);
+int isStraightFlush(int** hand);
+int isThreeOfAKind(int** hand);
+int isTwoPairs(int** hand);
