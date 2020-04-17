@@ -51,7 +51,7 @@ void printCardsShuffling(int deck[RANKS][SUITS], const char* suits[], const char
 int main() {
   const char *Suits[] = {"Hearts", "Diamonds", "Clubs", "Spades"};
   const char *Ranks[] = {"Ace", "Two", "Three", "Four", "Five",
-  "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen" "King"};
+  "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen","King"};
   int deck[RANKS][SUITS];
   
   shuffleCards(deck);
